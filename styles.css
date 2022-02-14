@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 95%;
+  margin: 15px auto;
+  padding: 3em 0;
+  font-family: sans-serif;
+  background-color: hsl(250, 90%, 15%);
+}
+
+.schedule {
+  width: 90%;
+  height: 700px;
+  margin: 0 auto;
+  padding: 3em;
+  overflow: hidden;
+  border: 5px solid hsl(54, 100%, 50%);
+  border-radius: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.image-container {
+  width: 20%;
+}
+
+.world-cup {
+  width: 100%;
+}
+.logo {
+  width: 100px;
+  border-bottom-left-radius: 25%;
+  border-bottom-right-radius: 25%;
+  overflow: hidden;
+  position: absolute;
+  top: 2em;
+}
+
+.logo > img {
+  width: 100%;
+}
+
+.rounds {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 8em;
+}
+
+.rounds  h1 {
+  font-size: 7em;
+  color: hsl(54, 100%, 50%);
+}
+
+.teams {
+  display: flex;
+  column-gap: 3em;
+}
+
+.group {
+  width: 13em;
+  background-color: hsl(54, 100%, 50%);
+  padding: 0.3em;
+  border-radius: 1em;
+  box-shadow: 2px 2px hsl(264, 85%, 55%);
+}
+
+.group > h3 {
+  text-align: center;
+  padding: 10px 0;
+  color: hsl(250, 90%, 15%);
+}
+
+.group > ul {
+  background-color: hsl(250, 90%, 15%);
+  border-radius: 1em;
+  padding: 0 10px;
+}
+
+.group > ul > li {
+  padding: 5px;
+  color: hsl(54, 100%, 50%);
+  border-bottom: 1px solid hsl(264, 85%, 55%);
+}
+
+.group > ul > li:last-child {
+  border-bottom: none;
+}
+
+ul {
+  list-style: none;
+}
